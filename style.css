@@ -17,8 +17,16 @@
     color: #aa9239
 }
 
+.dark-header-color {
+    color: #554000
+}
+
 .white-color {
     color: #ffffff
+}
+
+.black-color {
+    color: #000000
 }
 
 .link {
@@ -37,9 +45,10 @@
 }
 
 .right-column {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 238, 238);
     height: 29.6cm;
     width: 60%;
+    padding-right: 40px;
 }
 
 .image-container {
@@ -65,4 +74,26 @@
     bottom: -30px;
     left: 10px;
     color: #aa9239;
+}
+
+.job-title {
+    letter-spacing: 5px;
+}
+
+.full-circle {
+    height: 15px;
+    width: 15px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #554000;
+    margin-top: 4px
+}
+
+.empty-circle {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #554000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 4px
 }
