@@ -29,6 +29,10 @@
     color: #000000
 }
 
+.inline-block {
+    display: inline-block
+}
+
 .link {
     text-decoration: underline;
     color: #ffffff;
